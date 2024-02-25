@@ -1,8 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "database.fightsubapp", "database.fightsubapp\database.fightsubapp.csproj", "{F92B6D9C-A795-4777-8617-99F8B9E61E17}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DojoConnect.Database", "DojoConnect.Database\DojoConnect.Database.csproj", "{F92B6D9C-A795-4777-8617-99F8B9E61E17}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DojoConnect.Api", "DojoConnect.Api\DojoConnect.Api.csproj", "{6B189725-AA9B-4D56-AC4B-46E0519E9CF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DojoConnect.Admin.Web", "DojoConnect.Admin.Web\DojoConnect.Admin.Web.csproj", "{CE578FB9-701E-4E27-9F51-111F7ACF50EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +20,9 @@ Global
 		{6B189725-AA9B-4D56-AC4B-46E0519E9CF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B189725-AA9B-4D56-AC4B-46E0519E9CF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B189725-AA9B-4D56-AC4B-46E0519E9CF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE578FB9-701E-4E27-9F51-111F7ACF50EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE578FB9-701E-4E27-9F51-111F7ACF50EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE578FB9-701E-4E27-9F51-111F7ACF50EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE578FB9-701E-4E27-9F51-111F7ACF50EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

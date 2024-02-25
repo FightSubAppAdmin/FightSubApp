@@ -1,4 +1,4 @@
-using database.fightsubapp;
+using DojoConnect.Database;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,7 +10,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<FightSubAppContext>(opt =>
+builder.Services.AddDbContext<DojoConnectDbContext>(opt =>
     opt.UseNpgsql(builder.Configuration.GetConnectionString("FightSubAppContext")));
 
 var app = builder.Build();

@@ -19,7 +19,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\database.fightsubapp\database.fightsubapp.csproj" />
+      <ProjectReference Include="..\DojoConnect.Database\DojoConnect.Database.csproj" />
     </ItemGroup>
 
 </Project>

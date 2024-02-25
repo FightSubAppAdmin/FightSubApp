@@ -1,11 +1,13 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace database.fightsubapp.models;
+namespace DojoConnect.Database.models;
 
 public class Gym
 {
-    public Guid GymId { get; set; }
+    public Guid Id { get; set; }
     
     [MaxLength(250)]
     public string Name { get; set; }
+
+    public ICollection<Person> Persons { get; set; }
 }
